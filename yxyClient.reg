@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_CLASSES_ROOT\yxy]
+"URL Protocol"="D:\\Release\\starturl.bat"
+ 
+[HKEY_CLASSES_ROOT\yxy\DefaultIcon]
+@="D:\\Release\\starturl.bat"
+ 
+[HKEY_CLASSES_ROOT\yxy\shell]
+ 
+[HKEY_CLASSES_ROOT\yxy\shell\open]
+ 
+[HKEY_CLASSES_ROOT\yxy\shell\open\command]
+@="\"D:\\Release\\starturl.bat\" \"%1\" "
+ 
